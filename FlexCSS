@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  flex: 1 0 200px; /* grow | shrink | basis */
+  margin: 10px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
